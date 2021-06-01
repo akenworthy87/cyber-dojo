@@ -1,0 +1,125 @@
+/sandbox/test_wordwrap.py:8:81: E501 line too long (219 > 80 characters)
+        self.test_string = "The function returns the string, but with line breaks inserted at just the right places to make sure that no line is longer than the column number. You try to break lines at word boundaries."
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:17:81: E501 line too long (84 > 80 characters)
+        self.assertEqual([36, 74, 113, 151], find_breakpoints(self.test_string, 40))
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:29:81: E501 line too long (219 > 80 characters)
+        self.test_string = "The function returns the string, but with line breaks inserted at just the right places to make sure that no line is longer than the column number. You try to break lines at word boundaries."
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:33:81: E501 line too long (96 > 80 characters)
+            "The function returns the string, but with line breaks inserted at just the right\n"
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:34:81: E501 line too long (93 > 80 characters)
+            "places to make sure that no line is longer than the column number. You try to\n"
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:60:81: E501 line too long (116 > 80 characters)
+            "The function returns the string, but with line breaks inserted at just the right places to make sure\n"
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:61:81: E501 line too long (103 > 80 characters)
+            "that no line is longer than the column number. You try to break lines at word boundaries."
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/test_wordwrap.py:66:81: E501 line too long (218 > 80 characters)
+        expected_string = "The function returns the string, but with line breaks inserted at just the right places to make sure that no line is longer than the column number. You try to break lines at word boundaries."
+                                                                                ^
+    Limit all lines to a maximum of 79 characters.
+
+    There are still many devices around that are limited to 80 character
+    lines; plus, limiting windows to 80 characters makes it possible to
+    have several windows side-by-side.  The default wrapping on such
+    devices looks ugly.  Therefore, please limit all lines to a maximum
+    of 79 characters. For flowing long blocks of text (docstrings or
+    comments), limiting the length to 72 characters is recommended.
+
+    Reports error E501.
+/sandbox/wordwrap.py:47:23: W291 trailing whitespace
+    output_string = ""
+                      ^
+    Trailing whitespace is superfluous.
+
+    The warning returned varies on whether the line itself is blank,
+    for easier filtering for those who want to indent their blank lines.
+
+    Okay: spam(1)\n#
+    W291: spam(1) \n#
+    W293: class Foo(object):\n    \n    bang = 12
+/sandbox/wordwrap.py:54:12: E221 multiple spaces before operator
+        end   = breakpoints[i]
+           ^
+    Avoid extraneous whitespace around an operator.
+
+    Okay: a = 12 + 3
+    E221: a = 4  + 5
+    E222: a = 4 +  5
+    E223: a = 4\t+ 5
+    E224: a = 4 +\t5
